@@ -1,0 +1,712 @@
+[00:00:27.236] Server  LOG      ✓ Ready in 19.2s
+[00:02:11.701] Server  LOG      ○ Compiling / ...
+[00:02:32.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:29.296] Browser ERROR   ./app/page.tsx:17:36
+Parsing ecmascript source code failed
+  15 |         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
+  16 |         <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"/>
+> 17 |           <p className={`${text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+     |                                    ^^^^
+  18 |             <strong>Welcome to Acme.</strong> This is the example for the{' '}
+  19 |             <a href="https://nextjs.org/learn/" className="text-blue-500">
+  20 |               Next.js Learn Course
+
+Expected '</', got 'text'
+[00:08:30.524] Server  LOG      ✓ Compiled in 1016ms
+[00:08:31.302] Browser ERROR   ./app/page.tsx:17:36
+Parsing ecmascript source code failed
+  15 |         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
+  16 |         <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"/>
+> 17 |           <p className={`${text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+     |                                    ^^^^
+  18 |             <strong>Welcome to Acme.</strong> This is the example for the{' '}
+  19 |             <a href="https://nextjs.org/learn/" className="text-blue-500">
+  20 |               Next.js Learn Course
+
+Expected '</', got 'text'
+[00:09:00.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:50.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:53.639] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.641] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.648] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.650] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.653] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.655] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.657] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.659] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.660] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.662] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.664] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.665] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.709] Server  ERROR    ⨯ ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:53.741] Server  LOG      ✓ Compiled in 87ms
+[00:09:54.310] Browser ERROR   ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:56.306] Browser ERROR   ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:56.306] Browser ERROR   ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:58.717] Browser ERROR   uncaughtError: Error: ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:59.301] Browser ERROR   ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:59.301] Browser ERROR   ./app/ui/fonts.ts
+Module not found: Can't resolve 'next/font/google/target.css'
+Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
+- Execution of resolve failed
+- Execution of resolve_internal failed
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
+
+Debug info:
+- Execution of NextFontGoogleReplacer::import_map_result failed
+- Execution of *get_font_css_properties failed
+- Execution of font_options_from_query_map failed
+- Unknown weight 400, 700 for font Lusitana.
+  Available weights: 400, 700
+
+Import traces:
+  #1 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/layout.tsx
+
+  #2 [Server Component]:
+    ./app/ui/fonts.ts
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:00.432] Server  LOG      ✓ Compiled in 412ms
+[00:10:00.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:15.289] Server  LOG      ✓ Compiled in 696ms
+[00:19:32.898] Server  LOG      ✓ Compiled in 45ms
+[00:19:32.904] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:33.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:25.616] Browser WARN    Image with src "/hero-mobile.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:20:30.075] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:16.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:59.102] Server  LOG      ✓ Compiled in 39ms
+[00:22:30.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:34.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:33.840] Server  LOG      ✓ Compiled in 346ms
+[00:25:38.557] Server  LOG      ✓ Compiled in 225ms
+[00:26:00.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:07.204] Server  LOG      ✓ Compiled in 619ms
+[00:30:16.006] Server  LOG      ✓ Compiled in 39ms
+[00:30:32.442] Server  LOG      ✓ Compiled in 412ms
+[00:30:43.316] Server  LOG      ✓ Compiled in 42ms
+[00:31:11.590] Server  LOG      ✓ Compiled in 411ms
+[00:31:20.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:23.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:16.216] Server  LOG      ✓ Compiled in 58ms
+[00:32:16.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:18.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:25.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:38.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:44.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:45.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:46.351] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:45.281] Server  LOG      ✓ Compiled in 76ms
