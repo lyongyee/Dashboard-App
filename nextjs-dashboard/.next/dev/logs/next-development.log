@@ -1,712 +1,360 @@
-[00:00:27.236] Server  LOG      ✓ Ready in 19.2s
-[00:02:11.701] Server  LOG      ○ Compiling / ...
-[00:02:32.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:29.296] Browser ERROR   ./app/page.tsx:17:36
+[00:00:38.924] Server  LOG      ✓ Ready in 27.5s
+[00:00:45.887] Server  LOG      ○ Compiling /seed ...
+[00:03:02.928] Server  LOG     {}
+[00:03:02.930] Server  LOG     {}
+[00:03:02.931] Server  LOG     {}
+[00:03:02.932] Server  LOG     {}
+[00:03:02.938] Server  LOG     {}
+[00:13:04.092] Server  LOG      ○ Compiling /dashboard ...
+[00:13:22.178] Server  ERROR    ⨯ ./app/dashboard/page.tsx:9:21
 Parsing ecmascript source code failed
-  15 |         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-  16 |         <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"/>
-> 17 |           <p className={`${text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-     |                                    ^^^^
-  18 |             <strong>Welcome to Acme.</strong> This is the example for the{' '}
-  19 |             <a href="https://nextjs.org/learn/" className="text-blue-500">
-  20 |               Next.js Learn Course
+   7 | export default function Page()
+   8 | {
+>  9 |     const revenue = await fetchRevenue();
+     |                     ^^^^^
+  10 |     return (
+  11 |         <main>
+  12 |       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
 
-Expected '</', got 'text'
-[00:08:30.524] Server  LOG      ✓ Compiled in 1016ms
-[00:08:31.302] Browser ERROR   ./app/page.tsx:17:36
+await isn't allowed in non-async function
+
+
+[00:13:25.223] Server  LOG      ○ Compiling /_error ...
+[00:13:28.289] Browser ERROR   uncaughtError: Error: ./app/dashboard/page.tsx:9:21
 Parsing ecmascript source code failed
-  15 |         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-  16 |         <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"/>
-> 17 |           <p className={`${text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-     |                                    ^^^^
-  18 |             <strong>Welcome to Acme.</strong> This is the example for the{' '}
-  19 |             <a href="https://nextjs.org/learn/" className="text-blue-500">
-  20 |               Next.js Learn Course
-
-Expected '</', got 'text'
-[00:09:00.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:50.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:53.639] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.641] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.648] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.650] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.653] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.655] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.657] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.659] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.660] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.662] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.664] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.665] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.709] Server  ERROR    ⨯ ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:53.741] Server  LOG      ✓ Compiled in 87ms
-[00:09:54.310] Browser ERROR   ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:09:56.306] Browser ERROR   ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:09:56.306] Browser ERROR   ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:09:58.717] Browser ERROR   uncaughtError: Error: ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:59.301] Browser ERROR   ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:09:59.301] Browser ERROR   ./app/ui/fonts.ts
-Module not found: Can't resolve 'next/font/google/target.css'
-Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of <ModuleAssetContext as AssetContext>::resolve_asset failed
-- Execution of resolve failed
-- Execution of resolve_internal failed
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-Error while looking up import map: Unknown weight 400, 700 for font Lusitana.
-
-Debug info:
-- Execution of NextFontGoogleReplacer::import_map_result failed
-- Execution of *get_font_css_properties failed
-- Execution of font_options_from_query_map failed
-- Unknown weight 400, 700 for font Lusitana.
-  Available weights: 400, 700
-
-Import traces:
-  #1 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/layout.tsx
-
-  #2 [Server Component]:
-    ./app/ui/fonts.ts
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:10:00.432] Server  LOG      ✓ Compiled in 412ms
-[00:10:00.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:15.289] Server  LOG      ✓ Compiled in 696ms
-[00:19:32.898] Server  LOG      ✓ Compiled in 45ms
-[00:19:32.904] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:33.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:25.616] Browser WARN    Image with src "/hero-mobile.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:20:30.075] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:21:16.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:59.102] Server  LOG      ✓ Compiled in 39ms
-[00:22:30.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:34.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:33.840] Server  LOG      ✓ Compiled in 346ms
-[00:25:38.557] Server  LOG      ✓ Compiled in 225ms
-[00:26:00.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:07.204] Server  LOG      ✓ Compiled in 619ms
-[00:30:16.006] Server  LOG      ✓ Compiled in 39ms
-[00:30:32.442] Server  LOG      ✓ Compiled in 412ms
-[00:30:43.316] Server  LOG      ✓ Compiled in 42ms
-[00:31:11.590] Server  LOG      ✓ Compiled in 411ms
-[00:31:20.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:23.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:16.216] Server  LOG      ✓ Compiled in 58ms
-[00:32:16.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:18.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:25.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:38.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:44.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:45.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:46.351] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:34:45.281] Server  LOG      ✓ Compiled in 76ms
+   7 | export default function Page()
+   8 | {
+>  9 |     const revenue = await fetchRevenue();
+     |                     ^^^^^
+  10 |     return (
+  11 |         <main>
+  12 |       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+
+await isn't allowed in non-async function
+
+
+[00:13:28.785] Browser ERROR   ./app/dashboard/page.tsx:9:21
+Parsing ecmascript source code failed
+   7 | export default function Page()
+   8 | {
+>  9 |     const revenue = await fetchRevenue();
+     |                     ^^^^^
+  10 |     return (
+  11 |         <main>
+  12 |       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+
+await isn't allowed in non-async function
+[00:13:28.785] Browser ERROR   ./app/dashboard/page.tsx:9:21
+Parsing ecmascript source code failed
+   7 | export default function Page()
+   8 | {
+>  9 |     const revenue = await fetchRevenue();
+     |                     ^^^^^
+  10 |     return (
+  11 |         <main>
+  12 |       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+
+await isn't allowed in non-async function
+[00:14:10.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:20.498] Server  LOG      ✓ Compiled in 79ms
+[00:17:13.765] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__39ae8237._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:17:13.814] Server  ERROR    ⨯ ReferenceError: a is not defined
+[00:17:13.952] Browser ERROR   uncaughtError: ReferenceError: a is not defined
+[00:17:30.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:08.126] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__be717358._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:08.127] Server  ERROR    ⨯ ReferenceError: totalPaidInvoices is not defined
+[00:22:08.940] Browser ERROR   uncaughtError: ReferenceError: totalPaidInvoices is not defined
+[00:23:28.797] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__be717358._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:28.797] Server  ERROR    ⨯ ReferenceError: totalPaidInvoices is not defined
+[00:23:29.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:29.947] Browser ERROR   uncaughtError: ReferenceError: totalPaidInvoices is not defined
+[00:25:44.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:26.962] Server  LOG     Fetching revenue data...
+[00:33:35.013] Server  LOG     Fetching revenue data...
+[00:33:38.118] Server  LOG     Data fetch completed after 3 seconds.
+[00:36:14.056] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.091] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\node_modules__pnpm_66195b2a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.099] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.110] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.113] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.114] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.117] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.121] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.123] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/loading"
+[00:36:14.127] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.128] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\node_modules__pnpm_66195b2a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.129] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.129] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.130] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.130] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.131] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.131] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.132] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/loading"
+[00:36:14.263] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.264] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\node_modules__pnpm_66195b2a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.268] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.269] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.270] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.270] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.271] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.272] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.272] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/loading"
+[00:36:14.277] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.278] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\node_modules__pnpm_66195b2a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.279] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.279] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.280] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.280] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.281] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.282] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\node_modules\.pnpm\next@16.0.7_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:36:14.283] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/loading"
+[00:36:14.619] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/dashboard/loading"
+[00:37:48.882] Server  LOG      ✓ Compiled in 171ms
+[01:03:06.431] Server  LOG     Fetching revenue data...
+[01:03:07.409] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:09.989] Server  LOG     Data fetch completed after 3 seconds.
+[01:03:15.255] Server  LOG     Fetching revenue data...
+[01:03:15.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:18.274] Server  LOG     Data fetch completed after 3 seconds.
+[01:20:14.556] Server  LOG     Fetching revenue data...
+[01:20:18.195] Server  LOG     Data fetch completed after 3 seconds.
+[01:20:36.807] Server  LOG     Fetching revenue data...
+[01:20:39.901] Server  LOG     Data fetch completed after 3 seconds.
+[01:20:40.714] Server  LOG     Fetching revenue data...
+[01:20:41.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:20:43.736] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:24.572] Server  LOG     Fetching revenue data...
+[01:21:24.632] Server  LOG     Fetching revenue data...
+[01:21:24.689] Server  LOG     Fetching revenue data...
+[01:21:24.738] Server  LOG     Fetching revenue data...
+[01:21:24.786] Server  LOG     Fetching revenue data...
+[01:21:24.834] Server  LOG     Fetching revenue data...
+[01:21:27.591] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:27.638] Server  LOG     Fetching revenue data...
+[01:21:27.666] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:27.704] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:27.720] Server  LOG     Fetching revenue data...
+[01:21:27.793] Server  LOG     Fetching revenue data...
+[01:21:27.828] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:27.864] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:27.892] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:27.940] Server  LOG     Fetching revenue data...
+[01:21:27.989] Server  LOG     Fetching revenue data...
+[01:21:28.056] Server  LOG     Fetching revenue data...
+[01:21:30.646] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:30.693] Server  LOG     Fetching revenue data...
+[01:21:30.728] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:30.778] Server  LOG     Fetching revenue data...
+[01:21:30.805] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:30.964] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:31.004] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:31.068] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:33.715] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:33.793] Server  LOG     Data fetch completed after 3 seconds.
+[01:21:57.317] Server  LOG     Fetching revenue data...
+[01:21:57.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:00.332] Server  LOG     Data fetch completed after 3 seconds.
+[01:22:07.323] Server  LOG     Fetching revenue data...
+[01:22:10.346] Server  LOG     Data fetch completed after 3 seconds.
+[01:38:03.774] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__911db68c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:38:03.802] Server  ERROR    ⨯ ReferenceError: revenue is not defined
+[01:38:04.071] Browser ERROR   uncaughtError: ReferenceError: revenue is not defined
+[01:38:31.081] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__911db68c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:38:31.082] Server  ERROR    ⨯ ReferenceError: revenue is not defined
+[01:38:31.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:31.955] Browser ERROR   uncaughtError: ReferenceError: revenue is not defined
+[01:38:37.196] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__911db68c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:38:37.196] Server  ERROR    ⨯ ReferenceError: revenue is not defined
+[01:38:37.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:37.939] Browser ERROR   uncaughtError: ReferenceError: revenue is not defined
+[01:38:48.232] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__911db68c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:38:48.233] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[01:38:48.389] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:35.488] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:40:14.573] Server  LOG      ✓ Compiled in 1280ms
+[01:40:14.975] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__911db68c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:40:14.976] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[01:40:15.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:30.717] Server  LOG      ✓ Compiled in 831ms
+[01:40:31.611] Server  LOG     Fetching revenue data...
+[01:40:34.638] Server  LOG     Data fetch completed after 3 seconds.
+[01:53:44.333] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:44.716] Server  LOG     Fetching revenue data...
+[01:53:47.741] Server  LOG     Data fetch completed after 3 seconds.
+[01:54:03.524] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__3f2dfa43._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:54:03.548] Server  ERROR    ⨯ ReferenceError: latestInvoices is not defined
+[01:54:03.940] Browser ERROR   uncaughtError: ReferenceError: latestInvoices is not defined
+[01:54:18.054] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__3f2dfa43._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:54:18.055] Server  ERROR    ⨯ ReferenceError: latestInvoices is not defined
+[01:54:18.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:18.946] Browser ERROR   uncaughtError: ReferenceError: latestInvoices is not defined
+[01:54:46.698] Server  LOG      ✓ Compiled in 327ms
+[01:54:47.041] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__3f2dfa43._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:54:47.042] Server  ERROR    ⨯ ReferenceError: latestInvoices is not defined
+[01:54:47.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:47.950] Browser ERROR   uncaughtError: ReferenceError: latestInvoices is not defined
+[01:57:12.947] Browser ERROR   ./app/ui/dashboard/latest-invoices.tsx:9:7
+Parsing ecmascript source code failed
+   7 |
+   8 | export default async function LatestInvoices({
+>  9 | const latestInvoices = await fetchLatestInvoices();
+     |       ^^^^^^^^^^^^^^
+  10 |   return (
+  11 |     <div className="flex w-full flex-col md:col-span-4">
+  12 |       <h2 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+
+Expected ',', got 'latestInvoices'
+
+Import trace:
+  Server Component:
+    ./app/ui/dashboard/latest-invoices.tsx
+    ./app/dashboard/(overview)/page.tsx
+[01:57:19.097] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\[root-of-the-server]__3f2dfa43._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:57:19.098] Server  ERROR    ⨯ ReferenceError: latestInvoices is not defined
+[01:57:19.454] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:57:19.952] Browser ERROR   uncaughtError: ReferenceError: latestInvoices is not defined
+[02:19:18.947] Browser ERROR   ./app/dashboard/(overview)/page.tsx:41:20
+Parsing ecmascript source code failed
+  39 |         <Suspense fallback={<InvoiceSkeleton />} />
+  40 |         <LatestInvoices />
+> 41 |         </Suspense>
+     |                    ^
+> 42 |       </div>
+     | ^^^^^^^
+  43 |     </main>
+  44 |     );
+  45 | }
+
+Expected '</', got 'jsx text (
+      )'
+[02:19:24.462] Server  LOG      ✓ Compiled in 353ms
+[02:19:25.218] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:19:25.936] Server  LOG     Fetching revenue data...
+[02:19:28.956] Server  LOG     Data fetch completed after 3 seconds.
+[02:19:35.507] Server  LOG     Fetching revenue data...
+[02:19:35.842] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:19:38.528] Server  LOG     Data fetch completed after 3 seconds.
+[02:19:57.292] Server  LOG     Fetching revenue data...
+[02:19:57.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:20:00.302] Server  LOG     Data fetch completed after 3 seconds.
+[02:20:17.215] Server  LOG     Fetching revenue data...
+[02:20:19.759] Server  LOG     Fetching revenue data...
+[02:20:20.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:20:22.775] Server  LOG     Data fetch completed after 3 seconds.
+[02:20:24.931] Server  LOG     Fetching revenue data...
+[02:20:25.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:20:27.944] Server  LOG     Data fetch completed after 3 seconds.
+[02:23:02.008] Server  LOG     Fetching revenue data...
+[02:23:05.021] Server  LOG     Data fetch completed after 3 seconds.
+[02:23:05.984] Server  LOG     Fetching revenue data...
+[02:23:06.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:08.997] Server  LOG     Data fetch completed after 3 seconds.
+[02:23:23.516] Browser ERROR   ./app/dashboard/(overview)/page.tsx:8:10
+Ecmascript file had an error
+   6 | import {Suspense} from 'react';
+   7 | import { LatestInvoicesSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons';
+>  8 | import { LatestInvoicesSkeleton } from '@/app/ui/skeletons';
+     |          ^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default async function Page()
+  11 | {
+
+the name `LatestInvoicesSkeleton` is defined multiple times
+[02:23:29.198] Server  LOG      ✓ Compiled in 777ms
+[02:23:29.827] Server  LOG     Fetching revenue data...
+[02:23:32.542] Server  LOG     Fetching revenue data...
+[02:23:32.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:35.557] Server  LOG     Data fetch completed after 3 seconds.
+[02:43:22.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:43:23.741] Server  LOG     Fetching revenue data...
+[02:43:26.755] Server  LOG     Data fetch completed after 3 seconds.
+[02:44:46.763] Server  LOG      ✓ Compiled in 1106ms
+[02:44:47.163] Server  LOG     Fetching revenue data...
+[02:44:50.180] Server  LOG     Data fetch completed after 3 seconds.
+[02:45:33.218] Server  LOG     Fetching revenue data...
+[02:45:36.225] Server  LOG     Data fetch completed after 3 seconds.
+[02:46:23.961] Server  LOG      ✓ Compiled in 379ms
+[02:46:24.166] Server  LOG     Fetching revenue data...
+[02:46:27.183] Server  LOG     Data fetch completed after 3 seconds.
+[02:46:49.202] Server  LOG     Fetching revenue data...
+[02:46:52.214] Server  LOG     Data fetch completed after 3 seconds.
+[02:47:52.328] Server  LOG     Fetching revenue data...
+[02:47:52.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:47:55.346] Server  LOG     Data fetch completed after 3 seconds.
+[03:12:41.472] Server  LOG      ✓ Compiled in 4s
+[03:12:42.068] Server  LOG     Fetching revenue data...
+[03:12:45.086] Server  LOG     Data fetch completed after 3 seconds.
+[03:46:04.090] Server  ERROR   (node:36284) TimeoutNegativeWarning: -3166923.0653709825 is a negative number.
+Timeout duration was set to 1.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[03:46:04.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:46:05.300] Server  LOG     Fetching revenue data...
+[03:46:08.312] Server  LOG     Data fetch completed after 3 seconds.
+[03:47:01.383] Server  LOG      ○ Compiling / ...
+[03:47:03.574] Server  LOG     Fetching revenue data...
+[03:47:04.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:47:06.598] Server  LOG     Data fetch completed after 3 seconds.
+[03:47:17.898] Browser LOG     d
+[03:47:17.898] Browser LOG     ds
+[03:47:17.898] Browser LOG     dsf
+[03:47:35.827] Server  LOG      ✓ Compiled in 97ms
+[03:47:59.693] Server  LOG      ✓ Compiled in 154ms
+[03:47:59.945] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[03:48:23.301] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:48:23.767] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\_a47da311._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:48:23.768] Server  ERROR    ⨯ ReferenceError: placeholder is not defined
+[03:48:23.803] Server  LOG      ✓ Compiled in 42ms
+[03:48:24.137] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:48:24.939] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[03:48:55.516] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:48:55.666] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\_a47da311._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:48:56.117] Server  ERROR    ⨯ ReferenceError: placeholder is not defined
+[03:48:56.130] Server  LOG      ✓ Compiled in 40ms
+[03:48:56.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:48:56.941] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[03:49:07.984] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:49:08.136] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\_a47da311._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:49:08.136] Server  ERROR    ⨯ ReferenceError: placeholder is not defined
+[03:49:08.149] Server  LOG      ✓ Compiled in 43ms
+[03:49:08.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:49:08.945] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[03:49:13.716] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:49:13.858] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\_a47da311._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:49:13.858] Server  ERROR    ⨯ ReferenceError: placeholder is not defined
+[03:49:13.870] Server  LOG      ✓ Compiled in 73ms
+[03:49:14.151] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:49:14.938] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[03:49:57.165] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:49:57.343] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\_a47da311._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:49:57.344] Server  ERROR    ⨯ ReferenceError: placeholder is not defined
+[03:49:57.361] Server  LOG      ✓ Compiled in 438ms
+[03:49:57.647] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:49:57.949] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[03:50:48.666] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:50:48.940] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\_a47da311._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:50:48.941] Server  ERROR    ⨯ ReferenceError: placeholder is not defined
+[03:50:48.958] Server  LOG      ✓ Compiled in 41ms
+[03:50:49.218] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:50:49.944] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[03:51:40.606] Server  LOG      ✓ Compiled in 157ms
+[03:51:40.939] Browser ERROR   ./app/ui/search.tsx:32:59
+Parsing ecmascript source code failed
+  30 |           handleSearch(e.target.value);
+  31 |         }}
+> 32 |         defaultValue={searchParams.get('query')?.toString};
+     |                                                           ^
+  33 |       />
+  34 |       <MagnifyingGlassIcon className="absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
+  35 |     </div>
+
+Expected '</', got ';'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[03:51:50.009] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:51:50.215] Server  ERROR   D:\Coding\Dashboard-App\nextjs-dashboard\.next\dev\server\chunks\ssr\_a47da311._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:51:50.216] Server  ERROR    ⨯ ReferenceError: placeholder is not defined
+[03:51:50.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:51:50.939] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
