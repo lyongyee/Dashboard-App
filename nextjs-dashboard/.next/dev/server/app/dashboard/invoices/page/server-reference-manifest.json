@@ -1,4 +1,50 @@
 {
-  "node": {},
+  "node": {
+    "4065c07fd52b1784c753acff23f6a83f36ca2f7717": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteInvoice",
+          "filename": "app/lib/action.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "exportedName": "deleteInvoice",
+      "filename": "app/lib/action.ts"
+    },
+    "60354760ee517d25f90b77a61dcfd1b4e4bf7ad229": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createInvoice",
+          "filename": "app/lib/action.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "exportedName": "createInvoice",
+      "filename": "app/lib/action.ts"
+    },
+    "706e3a375b52b826ad8d291fc30e3417809db53d91": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateInvoice",
+          "filename": "app/lib/action.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "exportedName": "updateInvoice",
+      "filename": "app/lib/action.ts"
+    }
+  },
   "edge": {}
 }
